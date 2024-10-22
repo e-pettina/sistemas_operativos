@@ -20,3 +20,7 @@ free -m > $DIRTMP/memoryusage.log
 ps -eo pcpu,pid,user,args | sort -k 1 -r | head -10 > $DIRTMP/top10cpu.log
 
 #en la pagina profundizan mas, pero no entiendo por que borran con rm cuando estan creandolo
+
+#https://geekland.eu/logs-en-linux/
+#https://geekland.eu/?s=logs
+
