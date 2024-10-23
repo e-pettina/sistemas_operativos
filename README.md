@@ -1,5 +1,3 @@
-Entrega del trabajo final de sistemas operativos 2024.
-Bash scripting.
+Trabajo de bash, sistemas operativos 2024.
 
 -Enzo Pettiná
--María Jesus Chirinos
