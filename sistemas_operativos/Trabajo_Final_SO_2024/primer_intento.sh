@@ -50,7 +50,7 @@ peso_kb=$(numfmt --to iec $peso)
 # iec ingresa un caracter de referencia para la unidad
 
 cantidad_repeticiones=$(printf "%s\n" "${extensiones[@]}" | sort | uniq -c | sort -nr)
-# con head tomabamos las primeras lineas, en este caso la primera
+# con head tomabamos las primeras lineas, en este caso la primera, esto lo borre al final
 # uniq -c para mostrar cuantas veces aparece cada extension y mostrar el numero junto a cada una
 # sort los ordena y agrupa por nombre, sort -nr los ordena pero numericamente y de mayor a menor
 # el @ sirve como el * pero para cada dato del arreglo
